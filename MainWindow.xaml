@@ -1,0 +1,16 @@
+<Window x:Class="Whoisloggedin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Whoisloggedin"
+        mc:Ignorable="d"
+        Title="Who Is Logged in?" Height="450" Width="498">
+    <Grid>
+        <Label Name="lblCmpName" Content="Enter Computer Name:" HorizontalAlignment="Left" Margin="30,22,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtCmpName" HorizontalAlignment="Left" Margin="166,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" ToolTip="Enter Computer name..."/>
+        <Button Name="btnSearch" Content="_Go" HorizontalAlignment="Left" Height="18" Margin="335,26,0,0" VerticalAlignment="Top" Width="52"/>
+        <Button Name="btnReset" Content="_Reset" HorizontalAlignment="Left" Height="18" Margin="396,26,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBox Name="txtResults" HorizontalAlignment="Left" Height="209" Margin="34,48,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="412"/>
+    </Grid>
+</Window>
